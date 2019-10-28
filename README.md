@@ -5,7 +5,7 @@ Desenvolvido para a matéria de Arquitetura de Sistemas Operacionais - UFSC
 ## Pré-requisitos
 - g++
 - c++14
-- Biblioteca pthread incluida no SO (Já incluída no MakeFile)
+- Biblioteca pthread incluida no SO (Já incluída nas flags do computador no MakeFile)
 - Para visualização correta, máquina com pelo menos 2 threads reais
 
 ## Instalação
