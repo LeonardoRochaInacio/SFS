@@ -29,6 +29,7 @@ Caso tudo tenha ocorrido bem, a mensagem de inicilização abaixo será mostrada
 [Common] Limpando /tmp/DefaultConnection.sock
 [Common] Ouvindo socket /tmp/DefaultConnection.sock
 ```
+A pasta ./sfs-home é o local utilizado como relativo nas conexões. Qualquer usuário que se conecte por um socket, será iniciado na pasta raiz relativa "home", que é a placa absoluta ~/..../sfs-home, sendo "...." o local onde foi clonado este projeto.
 
 ## Funcionalidades
  - Estabelece uma conexão via socket, sendo possível acessar os sistema de arquivos unix por meio do terminal. 
